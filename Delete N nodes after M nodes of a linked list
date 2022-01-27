@@ -8,7 +8,7 @@
 Node *getListAfterDeleteOperation(Node *head, int n, int m)
 {
     int cnt;
-    Node *cur, *rem;
+    Node *cur, *rem, *tem;
     cur = head;
 
     while (cur != NULL)
